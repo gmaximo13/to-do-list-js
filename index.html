@@ -12,27 +12,10 @@
     <div class="container">
         <div class="add-items-container">
             <input type="text" id="input-new-task" placeholder="Digite uma nova tarefa">
-            <button id="btn-new-task">+</button>
+            <button id="btn-new-task" onclick="newTask()" >+</button>
         </div>
         <div class="list-items-container">
-            <ul id="list-task-items">
-                <li>
-                    <p class="task-name">Item 1</p>
-                    <button class="btn-done">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <p class="task-name">Item 2</p>
-                    <button class="btn-done">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                        </svg>
-                    </button>
-                </li>
-            </ul>
+            <ul id="list-task-items"> </ul>
         </div>
     </div>
 </body>
