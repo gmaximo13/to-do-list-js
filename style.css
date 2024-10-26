@@ -49,6 +49,24 @@ body{
     background-color: #259300;
 }
 
+#btn-remove-all-task{
+    background-color: #212121;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#btn-remove-all-task:hover{
+    background-color: #e22200;
+}
+
 .list-items-container{
     background-color: #212121;
     padding: 10px;

@@ -42,4 +42,9 @@ function removeItem(data) {
     showTask()
 }
 
+function clearAllTasks() {
+    localStorage.removeItem(localStorageKey);
+    showTask();  
+}
+
 showTask()
